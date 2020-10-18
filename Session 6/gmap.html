@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.1.1.min.js" integrity="sha384-kLr4fYcqcSpbuI95brIH3vnnYCquzzSxHPU6XGQCIkQRGJwhg0StNbj1eegrHs12" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="35ea7de3-4aca-4afa-a172-d533e5ede803" data-root-id="1885"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="2118">
+          {"90d5b64d-50ff-411f-8970-96bca4f93baf":{"roots":{"references":[{"attributes":{"below":[{"id":"1896"}],"center":[{"id":"1903"},{"id":"1911"}],"left":[{"id":"1904"}],"renderers":[{"id":"1926"},{"id":"1931"}],"title":{"id":"1886"},"toolbar":{"id":"1919"},"x_range":{"id":"1888"},"x_scale":{"id":"1892"},"y_range":{"id":"1890"},"y_scale":{"id":"1894"}},"id":"1885","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1917","type":"HelpTool"},{"attributes":{"source":{"id":"1928"}},"id":"1932","type":"CDSView"},{"attributes":{"data_source":{"id":"1928"},"glyph":{"id":"1929"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1930"},"selection_glyph":null,"view":{"id":"1932"}},"id":"1931","type":"GlyphRenderer"},{"attributes":{},"id":"1915","type":"SaveTool"},{"attributes":{},"id":"1971","type":"Selection"},{"attributes":{},"id":"1972","type":"UnionRenderers"},{"attributes":{"axis":{"id":"1904"},"dimension":1,"ticker":null},"id":"1911","type":"Grid"},{"attributes":{"dimension":"lon"},"id":"1899","type":"MercatorTickFormatter"},{"attributes":{"formatter":{"id":"1899"},"ticker":{"id":"1897"}},"id":"1896","type":"MercatorAxis"},{"attributes":{},"id":"1916","type":"ResetTool"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"1918","type":"BoxAnnotation"},{"attributes":{"tile_source":{"id":"1884"}},"id":"1926","type":"TileRenderer"},{"attributes":{"dimension":"lat"},"id":"1907","type":"MercatorTickFormatter"},{"attributes":{"axis":{"id":"1896"},"ticker":null},"id":"1903","type":"Grid"},{"attributes":{"fill_color":{"value":"firebrick"},"line_color":{"value":"firebrick"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1929","type":"Circle"},{"attributes":{"text":"VIOLENT EVENTS PER THE TOP FIVE GROUPS IN NIGER"},"id":"1886","type":"Title"},{"attributes":{"end":-9796115.189808074,"start":-10352712.643774442},"id":"1888","type":"Range1d"},{"attributes":{"overlay":{"id":"1918"}},"id":"1914","type":"BoxZoomTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1912"},{"id":"1913"},{"id":"1914"},{"id":"1915"},{"id":"1916"},{"id":"1917"}]},"id":"1919","type":"Toolbar"},{"attributes":{},"id":"1894","type":"LinearScale"},{"attributes":{"formatter":{"id":"1907"},"ticker":{"id":"1905"}},"id":"1904","type":"MercatorAxis"},{"attributes":{},"id":"1913","type":"WheelZoomTool"},{"attributes":{"end":1459732.2718804975,"start":2037548.5447506013},"id":"1890","type":"Range1d"},{"attributes":{},"id":"1892","type":"LinearScale"},{"attributes":{"attribution":"Map tiles by &lt;a href=\"https://stamen.com\"&gt;Stamen Design&lt;/a&gt;, under &lt;a href=\"https://creativecommons.org/licenses/by/3.0\"&gt;CC BY 3.0&lt;/a&gt;. Data by &lt;a href=\"https://openstreetmap.org\"&gt;OpenStreetMap&lt;/a&gt;, under &lt;a href=\"https://creativecommons.org/licenses/by-sa/3.0\"&gt;CC BY SA&lt;/a&gt;.","url":"https://stamen-tiles.a.ssl.fastly.net/terrain/{Z}/{X}/{Y}.png"},"id":"1884","type":"WMTSTileSource"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"firebrick"},"line_alpha":{"value":0.1},"line_color":{"value":"firebrick"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1930","type":"Circle"},{"attributes":{"dimension":"lat"},"id":"1905","type":"MercatorTicker"},{"attributes":{"dimension":"lon"},"id":"1897","type":"MercatorTicker"},{"attributes":{"data":{"x":[-90.9901,-90.25,-90.8061,-90.25,-90.25,-90.25,-90.25],"y":[-90.9901,-90.25,-90.8061,-90.25,-90.25,-90.25,-90.25]},"selected":{"id":"1971"},"selection_policy":{"id":"1972"}},"id":"1928","type":"ColumnDataSource"},{"attributes":{},"id":"1912","type":"PanTool"}],"root_ids":["1885"]},"title":"Bokeh Application","version":"2.1.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('2118').textContent;
+                  var render_items = [{"docid":"90d5b64d-50ff-411f-8970-96bca4f93baf","root_ids":["1885"],"roots":{"1885":"35ea7de3-4aca-4afa-a172-d533e5ede803"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
